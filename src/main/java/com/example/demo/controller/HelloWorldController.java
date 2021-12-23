@@ -9,12 +9,12 @@ public class HelloWorldController
     @RequestMapping("/hello")
     public String hello()
     {
-        return "Hello from Jeyakumar";
+        return "Hello from Jey";
     }
 
     @RequestMapping("/helloworld")
     public String helloworld()
     {
-        return "Helloworld from Jeyakumar";
+        return "Helloworld from Jey";
     }
 }
